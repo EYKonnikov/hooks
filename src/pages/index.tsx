@@ -12,13 +12,7 @@ export interface Mock {
     date: number;
 }
 
-export interface FormState {
-    type: string;
-    description: any;
-    timeToDo?: number;
-    id: number;
-    date: number;
-}
+
 
 const MainPage = () => {
     const [tasks, setTasks] = useState<Mock[]>(taskMock)
